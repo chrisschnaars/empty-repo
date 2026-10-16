@@ -1,0 +1,12 @@
+navigation:
+  - kind: guide
+    directory: docs
+    name: Guides
+    icon: far fa-book-open-lines
+  - kind: reference
+    directory: reference
+    name: API Reference
+    icon: far fa-code-simple
+  - kind: changelog
+    name: Changelog
+    icon: far fa-megaphone
