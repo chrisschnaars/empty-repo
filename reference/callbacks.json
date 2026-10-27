@@ -133,6 +133,50 @@
           }
         }
       }
+    },
+    "/new-endpoint": {
+      "get": {
+        "operationId": "",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ],
+                      "title": "cats"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ],
+                      "title": "dogs"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "summary": "pets"
+      }
     }
   }
 }
